@@ -1,3 +1,4 @@
+// Exactly one line, nothing else.
 // One line, at most 160 characters.
 import { mkdirSync, writeFileSync } from "node:fs";
 
