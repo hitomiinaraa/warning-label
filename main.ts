@@ -1,3 +1,4 @@
+// Revision pass: re-verified byte-exact after the v2 rebuild.
 // Warning Label for Humans: One Line, Big Laugh (v2 rebuild)
 // Writes the winning warning-label line to /output/entry.txt, byte-exact.
 // v2 line: the "not hungry" dinner thief — a fresh warning, not the v1 lateness line.
