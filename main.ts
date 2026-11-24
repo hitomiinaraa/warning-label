@@ -1,9 +1,9 @@
-// Exactly one line, nothing else.
-// One line, at most 160 characters.
+// Warning Label for Humans: One Line, Big Laugh (v2 rebuild)
+// Writes the winning warning-label line to /output/entry.txt, byte-exact.
+// v2 line: the "not hungry" dinner thief — a fresh warning, not the v1 lateness line.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const entry = "WARNING: May say 'I'm five minutes away' while still in bed. Allow 45 minutes and a second call.";
+const ENTRY = 'WARNING: Contents may insist they are "not hungry," then eat half your dinner straight off your plate.';
 
-const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
-mkdirSync(outDir, { recursive: true });
-writeFileSync(`${outDir}/entry.txt`, entry, "utf8");
+mkdirSync("/output", { recursive: true });
+writeFileSync("/output/entry.txt", ENTRY, "utf8");
